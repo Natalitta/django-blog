@@ -19,7 +19,7 @@ class Post(models.Model):
 
 
     class Meta:
-        ordering = ["-created-on"]
+        ordering = ["-created_on"]
 
 
     def __str__(self):
